@@ -5,6 +5,7 @@ import Landing from './Landing'
 import FeaturedProjects from './FeaturedProjects'
 import SkillsContainer from './SkillsContainer'
 import AllProjects from './AllProjects'
+import Sidebar from './sidebar'
 
 export {
   ProfilePic,
@@ -14,4 +15,5 @@ export {
   FeaturedProjects,
   SkillsContainer,
   AllProjects,
+  Sidebar,
 }

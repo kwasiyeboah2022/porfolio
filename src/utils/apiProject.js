@@ -27,7 +27,7 @@ export const apiProjects = [
     name: 'Portfolio App',
     info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
     image: portfolioImg,
-    url: '',
+    url: 'https://yesjob.netlify.app',
   },
   {
     id: '4',

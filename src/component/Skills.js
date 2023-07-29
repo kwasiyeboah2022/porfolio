@@ -7,11 +7,11 @@ const Skills = ({ area, skills }) => {
       <div className="card">
         <header>
           <div>
-            <h5>{area}</h5>
+            <h2>{area}</h2>
           </div>
         </header>
         <div>
-          <div>
+          <div className="text-center">
             <h5>{sk1}</h5>
             <h5>{sk2}</h5>
             <h5>{sk3}</h5>
@@ -37,23 +37,32 @@ const Wrapper = styled.article`
 
   header {
     background-color: var(--primary-500);
-    padding: 1rem 1.5rem;
     border-bottom: 1px solid var(--grey-100);
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
-    h5 {
-      letter-spacing: 0;
-      color: var(--white);
-      font-weight: 700;
-    }
-    .card {
-      margin-bottom: 2rem;
-    }
-    .card:hover {
-      box-shadow: var(--shadow-4);
-      transform: scale(1.02);
-    }
+  }
+  h2 {
+    letter-spacing: 0;
+    color: var(--white);
+    font-weight: 700;
+    text-transform: upperCase;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  h5 {
+    letter-spacing: 0;
+    color: var(--grey-500);
+    font-weight: 600;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card:hover {
+    box-shadow: var(--shadow-4);
+    transform: scale(1.02);
   }
 `
 

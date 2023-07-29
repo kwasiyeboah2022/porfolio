@@ -49,6 +49,8 @@ html {
   --small-text: 0.875rem;
   --extra-small-text: 0.7em;
   /* rest of the vars */
+  --background-image: url('./assets/images/background3.jpg');
+
   --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
   --borderRadius: 0.25rem;
@@ -70,7 +72,9 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  background-image: var(--background-image);
+  background-size: cover;
+
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;

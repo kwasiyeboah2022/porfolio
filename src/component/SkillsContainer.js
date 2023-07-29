@@ -6,7 +6,7 @@ const SkillsContainer = () => {
   return (
     <Wrapper>
       <div>
-        <h1 className="heading">skills</h1>
+        <h2 className="heading">skills</h2>
       </div>
       <div className="skills">
         {skillsData.map((data) => {
@@ -17,34 +17,35 @@ const SkillsContainer = () => {
   )
 }
 const Wrapper = styled.section`
-  margin-top: 4rem;
-  h2 {
+  /* margin-top: 0.2rem; */
+  /* h2 {
     text-transform: none;
   }
   & > h5 {
     font-weight: 700;
-  }
+  } */
 
-  h1 {
+  h2 {
     text-align: center;
     margin-bottom: 2rem;
   }
 
   .heading {
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 0.2rem;
   }
   .skills {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 0.2rem;
+    row-gap: 0.1rem;
+    color: var(--grey-400);
   }
 
   @media (min-width: 992px) {
     .skills {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0.2rem;
+      gap: 0.1rem;
     }
     h5 {
       text-align: center;
