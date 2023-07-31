@@ -9,7 +9,9 @@ const AboutPage = () => {
         <img src={logo} alt="nice pic" />
         <article>
           <div className="title">
-            <h2>Personal Information</h2>
+            <h2>
+              PERSONAL <span>INFORMATION</span>
+            </h2>
             <div className="title-underline"></div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -62,6 +64,9 @@ const Wrapper = styled.section`
   .title {
     text-align: center;
     margin-top: 80px;
+    span {
+      color: var(--primary-500);
+    }
   }
   .underline {
     margin-left: 5;

@@ -23,7 +23,7 @@ const Landing = () => {
             See Projects
           </Link>
         </div>
-        <img src={logo} alt="job hunt" className="img main-img" />
+        <img src={logo} alt="img hunt" className="img main-img" />
       </div>
     </Wrapper>
   )
@@ -53,13 +53,13 @@ const Wrapper = styled.main`
     .page {
       grid-template-columns: 1fr 1fr;
       column-gap: 3rem;
-      margin-left: 8rem;
+      margin-left: 10rem;
     }
     .main-img {
       display: block;
       width: 200px;
       height: 200px;
-      border-radius: 100%;
+      border-radius: 50%;
     }
   }
 `
