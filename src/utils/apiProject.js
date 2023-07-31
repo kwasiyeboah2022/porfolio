@@ -14,6 +14,7 @@ export const apiProjects = [
     name: 'Jobster App',
     info: 'Paris is synonymous with the finest things that culture can offer — in art, fashion, food. On this tour, your Paris-savvy Rick Steves guide will immerse you in the very best of the City of Light:',
     image: jobsterImg,
+    url: 'https://yesjob.netlify.app',
   },
   {
     id: '2',

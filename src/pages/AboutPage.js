@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/images/profile_pic.svg'
+import logo from '../assets/images/STEVE.jpg'
 
 const AboutPage = () => {
   return (
@@ -29,7 +29,7 @@ const AboutPage = () => {
 
 const Wrapper = styled.section`
   display: grid;
-  gap: 4rem;
+  gap: 0.1rem;
   /* img {
     width: 100%;
     display: block;
@@ -39,28 +39,32 @@ const Wrapper = styled.section`
   } */
   img {
     display: block;
-    width: 460px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
-    margin-left: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    justify-content: center;
   }
   p {
     line-height: 2;
     max-width: 45rem;
     margin: 0 auto;
     margin-top: 2rem;
-    margin-right: 8rem;
+    margin-right: 2rem;
     color: var(--clr-grey-5);
+    text-align: left;
   }
   h2 {
     text-align: left;
   }
   .title {
-    text-align: left;
+    text-align: center;
     margin-top: 80px;
   }
   .underline {
-    margin-left: 0;
+    margin-left: 5;
   }
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;

@@ -40,18 +40,23 @@ const Wrapper = styled.article`
     padding: 2rem 0;
     display: grid;
     gap: 2rem;
-    margin-left: 5rem;
+    justify-content: center;
   }
   @media screen and (min-width: 768px) {
     .allProjects {
       grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 4rem;
+
       align-items: center;
+      justify-content: center;
     }
   }
 
   @media screen and (min-width: 992px) {
     .allProjects {
       grid-template-columns: 1fr 1fr 1fr;
+      margin: 4rem;
     }
   }
 `
