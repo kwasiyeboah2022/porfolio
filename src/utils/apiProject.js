@@ -1,6 +1,5 @@
 import jobsterImg from '../assets/images/jobster.jpg'
 import ecommerceImg from '../assets/images/ecomm.jpg'
-import portfolioImg from '../assets/images/portfolio.jpg'
 import actionplanImg from '../assets/images/actionplan.jpg'
 import basketImg from '../assets/images/basket.jpg'
 import birthdayImg from '../assets/images/birthday.jpg'
@@ -12,63 +11,57 @@ export const apiProjects = [
   {
     id: '1',
     name: 'Jobster App',
-    info: 'Paris is synonymous with the finest things that culture can offer — in art, fashion, food. On this tour, your Paris-savvy Rick Steves guide will immerse you in the very best of the City of Light:',
+    info: 'This App makes user Add, Edit, Delete, view and search for jobs.',
     image: jobsterImg,
     url: 'https://yesjob.netlify.app',
   },
   {
     id: '2',
     name: 'E-commerce App',
-    info: "Rick Steves' Best of Ireland tour kicks off with the best of Dublin, followed by Ireland's must-see historical sites, charming towns, music-filled pubs, and seaside getaways — including Kinsale",
+    info: 'This is an e-commerce site  where you can buy products buy adding them to your cart.',
     image: ecommerceImg,
     url: 'https://buymeonline.netlify.app',
   },
+
   {
     id: '3',
-    name: 'Portfolio App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
-    image: portfolioImg,
-    url: 'https://yesjob.netlify.app',
-  },
-  {
-    id: '4',
     name: 'ToDOList App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: 'This is an app where you can set your action plan for the day.',
     image: actionplanImg,
     url: 'https://myactionplan.netlify.app',
   },
   {
-    id: '5',
+    id: '4',
     name: 'My Cart App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: 'This is a project on how to add an item to a cart.',
     image: basketImg,
     url: 'https://kwasibasket.netlify.app',
   },
   {
-    id: '6',
+    id: '5',
     name: 'Birthday Reminder App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: 'This is a simple birthday App to show number of people celebrating their birthday. ',
     image: birthdayImg,
     url: 'https://showbirthdays.netlify.app',
   },
   {
-    id: '7',
+    id: '6',
     name: 'Galleries App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: 'This App enables you to get any image you want. It can be an animal, cars, shoes and others.',
     image: galleriesImg,
     url: 'https://kwasiphotos.netlify.app',
   },
   {
-    id: '8',
+    id: '7',
     name: 'Menus App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: 'This App displays different kind of dishes at a particular period of time.',
     image: menusImg,
     url: 'https://kwasimenus.netlify.app',
   },
   {
-    id: '9',
+    id: '8',
     name: 'card App',
-    info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide.",
+    info: ' ',
     image: keepersImg,
     url: 'https://mykeepers.netlify.app',
   },

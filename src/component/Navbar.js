@@ -11,9 +11,7 @@ const Navbar = () => {
     <NavContainer>
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">
-            <h4>Yeboah.dev</h4>
-          </Link>
+          <h4>Yaks Digital</h4>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
           </button>

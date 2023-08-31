@@ -9,18 +9,16 @@ const AboutPage = () => {
         <img src={logo} alt="nice pic" />
         <article>
           <div className="title">
-            <h2>
-              PERSONAL <span>INFORMATION</span>
-            </h2>
-            <div className="title-underline"></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              modi pariatur est soluta? Saepe quam asperiores error a accusamus
-              natus maxime facere in odit ab dolor nam voluptates consequuntur,
-              eveniet inventore adipisci nemo. Neque expedita quia debitis quae.
-              Neque nobis fugiat voluptatum vitae quis veritatis, itaque iure
-              cupiditate repellendus porro mollitia vel ab? Ducimus quidem eum
-              ipsum sequi. Iusto, similique!
+              I'm a front-end developer and like to code in my spare time. Using
+              HTML,CSS, and Javascript, I have expertise in creating responsive
+              websites. I have worked with well known-known frontend frameworks
+              like React.js. I prefer to try out new technologies while I'm not
+              working on projects. I have also worked with API's and familiar
+              with version control programs like Git. I am a self starter who
+              values working in a team as well as alone. I am an HND holder from
+              the Kumasi Technical University and also a degree holder from
+              Kwame Nkrumah University of Science and Technology.
             </p>
           </div>
         </article>
@@ -48,15 +46,18 @@ const Wrapper = styled.section`
     border-radius: 50%;
     margin-top: 3rem;
     justify-content: center;
+    margin-left: 10rem;
+    margin-right: 1rem;
   }
   p {
     line-height: 2;
     max-width: 45rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 2rem;
     color: var(--clr-grey-5);
     text-align: left;
+    margin-bottom: 2rem;
   }
   h2 {
     text-align: left;
@@ -73,6 +74,10 @@ const Wrapper = styled.section`
   }
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
+    p {
+      margin-left: 3rem;
+      margin-right: 5rem;
+    }
   }
 `
 
